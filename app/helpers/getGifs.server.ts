@@ -1,4 +1,4 @@
-import { Gif } from '~/types/gif'
+import { Gif } from '~/types/Gif'
 
 const getGifs = async (title: string) => {
     const KEY_API = "INBYS428FGU4";

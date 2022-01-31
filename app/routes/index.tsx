@@ -1,8 +1,8 @@
 import FormComponent from "../components/FormComponent";
 import Header from "../components/Header";
-import { Gif } from "~/types/gif";
+import { Gif } from "~/types/Gif";
 import { LoaderFunction, useLoaderData, MetaFunction } from "remix";
-import getGifs from "~/api/getGifs.server";
+import getGifs from "~/helpers/getGifs.server";
 
 interface LoaderData {
     gifs: Gif[];
